@@ -1,0 +1,243 @@
+.main-cards{
+    display:flex;;
+    flex-wrap: wrap;
+    gap: 80%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: 5px;
+    margin: 1px;
+    border: rgb(158, 77, 15) solid;
+}
+.text{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+  
+}
+.cards{
+    padding: 4%;
+    margin-bottom: 2%;
+    background-color: rgb(44, 43, 40);
+    border: rgb(158, 77, 15) solid;
+    border-radius: 10px;
+}
+
+    #a1{
+text-align: center;
+background-color: orange;
+    }
+    #b1{
+       color: #ffffff;
+border: none;
+background-color: orange;
+
+    }
+    #a2{
+        text-align:center;
+    }
+    #bb{
+
+        color: #ffffff;
+        border: none;
+        background-color: orange;
+        text-align: left;
+    }
+   
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .titel {
+        margin-bottom: 20px;
+    }
+    
+    #a1 {
+        margin-bottom: 10px;
+    }
+    
+    #a2 {
+        margin-bottom: 20px;
+    }
+    
+    #search-query {
+        margin-right: 10px;
+    }
+    
+    #b1 {
+        margin-left: 10px;
+    }
+    
+    input[type="text"] {
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 200px;
+    }
+    
+    button {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .main-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .card p {
+        margin-bottom: 5px;
+    }
+    /* General styles */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.titel {
+    margin-bottom: 20px;
+}
+
+#a1 {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+}
+
+#a2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#search-query {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+#b1 {
+    margin-left: 10px;
+    color: #ffffff;
+    border: none;
+    background-color: orange;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#b1:hover {
+    background-color: #ff4500; /* Darker orange */
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Cards display */
+.main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between restaurant cards */
+    justify-content: center;
+}
+
+.cards {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(44, 43, 40);
+    border: 2px solid rgb(158, 77, 15);
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Restaurant card background */
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Like and Dislike buttons */
+#like,
+#dislike {
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#like {
+    background-color: green;
+}
+
+#dislike {
+    background-color: red;
+}
+
+#like:hover,
+#dislike:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+    
